@@ -1,0 +1,11 @@
+function setup() {
+  createCanvas(400, 400);
+  console.log("hej fra setup");
+}
+function draw(){
+ point(40, 50); // point(x, y)
+ line(200, 60, 50, 60); // line(x1, y1, x2, y2)
+ rect(10, 20, 40, 30); // rect(x, y, width, height)
+ ellipse(60, 100, 40, 60); // ellipse(x, y, width, height)
+ ellipse(200, 200, 40, 40); // ellipse(x, y, width, height)
+}
