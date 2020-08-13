@@ -1,0 +1,11 @@
+function setup() {
+  createCanvas(400, 400);
+  console.log("hej fra setup");
+}
+function draw(){
+background(50, 0, 255); // jeg har lavet baggrunden mørkeblå med denne komando
+  stroke(255, 255, 255); // mine linjer har jeg så farvet hvide
+       line(0, 0, 400, 400); // og det er så kordinaterne på mine linjer 
+  stroke(255, 255, 255);
+  line(0, 400, 400, 0);
+}
