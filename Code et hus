@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  fill(117, 65, 19);
+  beginShape();
+  vertex(160, 100);
+  vertex(200, 100);
+  vertex(180, 60);
+  endShape(CLOSE);
+  rect(160, 100, 40, 40);
+  
+  
+}
